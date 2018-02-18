@@ -81,3 +81,6 @@ autocmd FileType make,automake set noexpandtab shiftwidth=8 softtabstop=8
 
 " Display line numbers
 set number
+
+" Highlight the 81th column
+set colorcolumn=81
