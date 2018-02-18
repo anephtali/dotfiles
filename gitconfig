@@ -10,6 +10,7 @@
         co = checkout
         br = branch
         ci = commit
+        cs = commit -s
         st = status
         ll = log --oneline
 [color]
