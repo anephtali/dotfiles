@@ -3,6 +3,7 @@
 	name = Aurélien Nephtali
 [core]
 	excludesfile = /home/aurelien/.gitignore
+	editor = vim
 [push]
 	default = simple
 [alias]
