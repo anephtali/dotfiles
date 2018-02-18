@@ -66,13 +66,13 @@ hi Search cterm=NONE ctermfg=black ctermbg=darkyellow
 "
 
 " GNU Coding Standards
-setlocal cindent
-setlocal cinoptions=>4,n-2,{2,^-2,:2,=2,g0,h2,p5,t0,+2,(0,u0,w1,m1
-setlocal shiftwidth=2
-setlocal softtabstop=2
-setlocal textwidth=79
-setlocal fo-=ro fo+=cql
-setlocal expandtab
+set cindent
+set cinoptions=>4,n-2,{2,^-2,:2,=2,g0,h2,p5,t0,+2,(0,u0,w1,m1
+set shiftwidth=2
+set softtabstop=2
+set textwidth=79
+set fo-=ro fo+=cql
+set expandtab
 
 " allow tabs in Makefiles
 autocmd FileType make set noexpandtab shiftwidth=8 softtabstop=8
