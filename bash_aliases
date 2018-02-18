@@ -1,0 +1,6 @@
+alias rm="rm -i"
+alias mv="mv -i"
+alias cp="cp -i"
+alias gdb="gdb -q"
+alias vgdb="valgrind --vgdb=yes --vgdb-error=0"
+alias less="less -R -n"
