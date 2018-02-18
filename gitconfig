@@ -2,7 +2,6 @@
 	email = anephtali@users.noreply.github.com
 	name = Aurélien Nephtali
 [core]
-	excludesfile = /home/aurelien/.gitignore
 	editor = vim
 [push]
 	default = simple
