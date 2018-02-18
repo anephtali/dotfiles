@@ -40,9 +40,10 @@ map <cr> \be
 " highlight search
 set hlsearch
 
-" no backup/swap
-set nobackup
-set noswapfile
+" change vim swp/swo files location
+set backup
+set backupdir=/var/tmp/backups+swaps
+set dir=/var/tmp/backups+swaps
 
 " airline
 set laststatus=2
