@@ -78,3 +78,6 @@ set cinoptions=(0
 
 " Allow tabs in Makefiles.
 autocmd FileType make,automake set noexpandtab shiftwidth=8 softtabstop=8
+
+" Display line numbers
+set number
