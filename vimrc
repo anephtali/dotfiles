@@ -83,8 +83,8 @@ autocmd FileType make,automake set noexpandtab shiftwidth=8 softtabstop=8
 set number
 
 " color > 80 chars
-highlight OverLength ctermbg=magenta ctermfg=white
-match OverLength /\%81v.\+/
+" highlight OverLength ctermbg=magenta ctermfg=white
+" match OverLength /\%81v.\+/
 
 " backspace everywhere
 set backspace=indent,eol,start
