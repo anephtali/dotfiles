@@ -59,7 +59,7 @@ hi Search cterm=NONE ctermfg=black ctermbg=darkyellow
 " airline
 let g:airline#extensions#whitespace#enabled = 0
 
-" Don't save options
+" don't save options
 set sessionoptions-=options
 
 " e: tab behaviour
@@ -76,13 +76,13 @@ set softtabstop=4
 set cindent
 set cinoptions=(0
 
-" Allow tabs in Makefiles.
+" allow tabs in Makefiles.
 autocmd FileType make,automake set noexpandtab shiftwidth=8 softtabstop=8
 
-" Display line numbers
+" display line numbers
 set number
 
-" Color > 80 chars
+" color > 80 chars
 highlight OverLength ctermbg=magenta ctermfg=white
 match OverLength /\%81v.\+/
 
