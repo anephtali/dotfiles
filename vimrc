@@ -84,3 +84,6 @@ set number
 " Color > 80 chars
 highlight OverLength ctermbg=magenta ctermfg=white
 match OverLength /\%81v.\+/
+
+" backspace everywhere
+set backspace=indent,eol,start
