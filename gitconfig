@@ -1,0 +1,23 @@
+[user]
+        email = anephtali@users.noreply.github.com
+        name = Aurélien Nephtali
+[core]
+        editor = vim
+        whitespace = trailing-space,space-before-tab,tab-in-indent,cr-at-eol
+[push]
+        default = simple
+[alias]
+        co = checkout
+        br = branch
+        ci = commit
+        cs = commit -s
+        st = status
+        ll = log --oneline
+        ld = log --decorate
+        lo = log --decorate --oneline
+        ln = log --oneline --no-merges
+        lg = log --oneline --graph
+[color]
+        ui = auto
+[pull]
+	rebase = true
