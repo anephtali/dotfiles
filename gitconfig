@@ -13,6 +13,7 @@
         cs = commit -s
         st = status
         ll = log --oneline
+        ld = log --decorate
 [color]
         ui = auto
 [pull]
