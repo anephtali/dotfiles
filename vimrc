@@ -88,3 +88,6 @@ set number
 
 " backspace everywhere
 set backspace=indent,eol,start
+
+" disable mouse integration
+set mouse-=a
