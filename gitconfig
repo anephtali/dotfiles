@@ -1,0 +1,13 @@
+[user]
+	email = mail@mail.com
+	name = Aurelien Nephtali
+[core]
+	excludesfile = /home/aurelien/.gitignore
+[push]
+	default = simple
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	last = log -1 HEAD
