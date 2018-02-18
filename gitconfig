@@ -14,3 +14,5 @@
         ll = log --oneline
 [color]
         ui = auto
+[branch]
+        autosetuprebase = always
