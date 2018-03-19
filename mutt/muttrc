@@ -1,5 +1,8 @@
 source ~/.mutt/colors
 
+set editor=vim
+set send_charset="utf-8"
+
 # imap
 set imap_user = "aurelien.nephtali@gmail.com"
 set imap_pass = ""
