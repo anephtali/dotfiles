@@ -55,3 +55,7 @@ unignore from date subject to cc
 
 set folder_format="%2C %t %N %8s %d %f"
 set signature="~/.mutt/signature"
+
+# goobook
+set query_command="goobook query %s"
+bind editor <Tab> complete-query
