@@ -1,4 +1,5 @@
 export PASSWORD_STORE_X_SELECTION=primary
+export EDITOR=vi
 
 parse_git_branch() {
     git branch 2>/dev/null | grep '^*' | colrm 1 2 | tr -d '\n'
