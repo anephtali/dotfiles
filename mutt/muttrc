@@ -1,0 +1,54 @@
+source ~/.mutt/colors
+
+# imap
+set imap_user = "aurelien.nephtali@gmail.com"
+set imap_pass = ""
+set folder = imaps://imap.gmail.com/
+set spoolfile = +INBOX
+set imap_passive = "no"
+set imap_check_subscribed = "yes"
+set imap_list_subscribed = "yes"
+
+# smtp
+set realname = "Aurélien Nephtali"
+set from = "aurelien.nephtali@gmail.com"
+set use_from = yes
+set envelope_from = yes
+set record = "+[Gmail]/Sent Mail"
+set postponed = "+[Gmail]/Drafts"
+set smtp_url = "smtp://aurelien.nephtali@gmail.com@smtp.gmail.com:587/"
+set smtp_pass = ""
+set smtp_authenticators = 'gssapi:login'
+
+set header_cache = ~/.cache/mutt
+set message_cachedir = "~/.cache/mutt"
+set mail_check = 120
+mailboxes INBOX
+
+# keys
+bind index G imap-fetch-mail
+
+# sort
+set sort_aux = last-date-received       
+set sort = threads
+set sort_re
+set quit = ask-yes
+
+# ssl/tls
+set ssl_starttls = yes
+set ssl_force_tls = yes
+
+# mailcap
+set mailcap_path = ~/.mutt/mailcap
+
+auto_view text/html
+alternative_order text/plain text/enriched text/html
+
+set mime_forward
+set mime_forward_rest = yes
+
+ignore *
+unignore from date subject to cc
+
+set folder_format="%2C %t %N %8s %d %f"
+set signature="~/.mutt/signature"
