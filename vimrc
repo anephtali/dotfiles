@@ -70,11 +70,10 @@ set wildmenu
 set hidden
 
 " indentation rules: 4 spaces, no tabs
-set expandtab
-set shiftwidth=4
-set softtabstop=4
-set cindent
-set cinoptions=(0
+" set expandtab softtabstop=4 shiftwidth=4 cindent cinoptions=(0
+
+" indentation rules: tabs
+set autoindent noexpandtab tabstop=8 shiftwidth=8 cino+=(0
 
 " allow tabs in Makefiles.
 autocmd FileType make,automake set noexpandtab shiftwidth=8 softtabstop=8
