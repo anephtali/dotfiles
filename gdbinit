@@ -8,6 +8,7 @@ set print vtbl on
 set print demangle on
 set demangle-style gnu-v3
 set print sevenbit-strings off
+set disassembly-flavor intel
 
 python
 import sys
