@@ -91,3 +91,7 @@ set backspace=indent,eol,start
 
 " disable mouse integration
 set mouse-=a
+
+" disable Ex mode
+map q: <Nop>
+nnoremap Q <nop>
