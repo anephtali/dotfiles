@@ -16,6 +16,7 @@
         ld = log --decorate
         lo = log --decorate --oneline
         ln = log --oneline --no-merges
+        lg = log --oneline --graph
 [color]
         ui = auto
 [pull]
